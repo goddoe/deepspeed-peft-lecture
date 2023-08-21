@@ -5,6 +5,7 @@ import math
 import sys
 import os
 
+import numpy as np
 import torch
 from torch.optim import AdamW
 from torch.utils.data import DataLoader
@@ -51,8 +52,10 @@ class ModelArguments:
 
 
 @dataclass
-class PeftLoraArguments(LoraConfig):
-    pass
+class PeftLoraArguments:
+    r: int = field(default=8, metadata={"help": "Lora attention dimension"})
+    lora_alpha: int = field(default=None, metadata={"help": "Lora alpha"})
+    lora_dropout: float = field(default=None, metadata={"help": "Lora dropout"})
 
 
 @dataclass
