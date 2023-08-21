@@ -11,3 +11,6 @@ peft @ git+https://github.com/huggingface/peft.git@6c44096c7b8d55a2ecf24be9bc683
 tqdm==4.66.1
 transformers @ git+https://github.com/huggingface/transformers.git@450a181d8b963b4e896be4aac701815aa554a6bb
 gradio==3.40.1
+scipy==1.11.2
+scikit-learn==1.3.0
+tensorboard==2.14.0

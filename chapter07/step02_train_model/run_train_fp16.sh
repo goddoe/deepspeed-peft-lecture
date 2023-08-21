@@ -18,6 +18,7 @@ accelerate launch train_instruct_tuned_model.py\
     --per_device_eval_batch_size 2 \
     --max_eval_sample 100 \
     --lr_scheduler_type "linear" \
+    --fp16 true \
     --warmup_ratio 0.06 \
     --do_train \
     --report_to "tensorboard" \

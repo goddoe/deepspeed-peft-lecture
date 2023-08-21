@@ -189,7 +189,7 @@ def main(args):
 if __name__=='__main__':
     parser = ArgumentParser()
     parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--model_path", type=str, default="skt/kogpt2-base-v2")
+    parser.add_argument("--model_path", type=str, default="EleutherAI/polyglot-ko-1.3b")
     parser.add_argument("--tokenizer_path", type=str)
     parser.add_argument("--dataset_name", type=str, default="heegyu/korquad-chat-v1")
     parser.add_argument("--gradient_accumulation_steps", type=int, default=1)
