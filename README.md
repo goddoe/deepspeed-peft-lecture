@@ -1,6 +1,5 @@
-# 비용을 줄이는 LLM 학습 기법
+# deepspeed-peft-lecture
 
-- https://fastcampus.co.kr/data_online_prompt
 
 ## 설치
 
